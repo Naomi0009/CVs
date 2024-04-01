@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+    color: black;
+}
+.darkmode{
+background-color: black;
+color: white;
+}
+ 
+ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.container{
+    background-color: lavender;
+    height: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.About{
+    background-color: bisque;
+    color: lightcoral;
+}
+
+.profile_image{
+    display: flex;
+    justify-content: center;
+    
+}
+.About_image{
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 14px;  
+    border: 4px dotted lightblue;
+}
+.contact_image{
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin-right: 3px;
+}
+.line{
+    width: 25px;
+    height: 3px;
+    background-color: lightpink;
+    margin: 5px 0;
+}
+
+
+.navigation-bar.active{
+    display: block;
+}
+.hamburger_menu.active .line:nth-child(1){
+    
+    transform: translateY(8px)rotate(45deg)
+}
+.hamburger_menu.active .line:nth-child(2){
+    opacity: 0;
+}
+
+
+footer{
+    background-color: thistle;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+figcaption{
+    margin-left: 10px;
+    text-align: center;
+}
